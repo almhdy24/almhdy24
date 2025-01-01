@@ -1,0 +1,15 @@
+{
+  "personal_website": "almhdy24's Personal Website",
+  "about_me": "About Me",
+  "about_me_description": "👋 Hi there! I'm Elmahdi Abdallah, a passionate web developer with a focus on PHP and modern web technologies. I love building efficient solutions and showcasing my work through projects.",
+  "projects": "🚀 Projects",
+  "currently_learning": "🌱 I’m currently learning",
+  "currently_learning_items": [
+    "Advanced PHP frameworks and design patterns",
+    "Improved cloud integrations for web applications"
+  ],
+  "contact_me": "📫 How to reach me",
+  "email": "Email",
+  "previous": "Previous",
+  "next": "Next"
+}

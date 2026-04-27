@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title data-key="site_title">المهدي | مطور برمجيات</title>
+    <meta name="description" data-key="meta_desc" />
+    <meta name="keywords" data-key="meta_keywords" />
+    <meta name="author" content="Elmahdi Dev" />
+
+    <meta property="og:title" data-key="og_title" />
+    <meta property="og:description" data-key="og_desc" />
+    <meta property="og:image" content="assets/profile.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ar" />
+
+    <link rel="alternate" hreflang="ar" href="https://almhdy24.github.io/?lang=ar" />
+    <link rel="alternate" hreflang="en" href="https://almhdy24.github.io/?lang=en" />
+    <link rel="canonical" href="https://almhdy24.github.io" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <svg class="logo-icon" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle"
+                      font-family="Inter, sans-serif" font-weight="800" font-size="24"
+                      fill="currentColor">&lt;E/&gt;</text>
+            </svg>
+            <span>Elmahdi</span>
+        </div>
+
+        <nav>
+            <a href="#home" data-key="nav_home">الرئيسية</a>
+            <a href="#services" data-key="nav_services">الخدمات</a>
+            <a href="#portfolio" data-key="nav_portfolio">أعمالي</a>
+            <a href="#about" data-key="nav_about">من أنا</a>
+            <a href="#contact" data-key="nav_contact">تواصل</a>
+        </nav>
+
+        <div class="lang">
+            <button onclick="setLang('ar')">AR</button>
+            <button onclick="setLang('en')">EN</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h1 data-key="hero_title"></h1>
+                <p data-key="hero_desc"></p>
+                <div class="proof">
+                    <p data-key="proof_text"></p>
+                </div>
+                <a href="https://wa.me/249993452125?text=مشروع"
+                   class="btn hero-cta" data-key="hero_cta"
+                   data-wa="hero"></a>
+            </div>
+            <img src="assets/profile.jpg" alt="Elmahdi Developer" class="hero-img" />
+        </section>
+
+        <!-- Services -->
+        <section id="services">
+            <h2 data-key="services_title"></h2>
+            <div class="cards">
+                <div class="card">
+                    <h3 data-key="service1_title"></h3>
+                    <p data-key="service1_desc"></p>
+                    <a href="#contact" class="btn small" data-key="order_btn">طلب الخدمة</a>
+                </div>
+                <div class="card">
+                    <h3 data-key="service2_title"></h3>
+                    <p data-key="service2_desc"></p>
+                    <a href="#contact" class="btn small" data-key="order_btn">طلب الخدمة</a>
+                </div>
+                <div class="card">
+                    <h3 data-key="service3_title"></h3>
+                    <p data-key="service3_desc"></p>
+                    <a href="#contact" class="btn small" data-key="order_btn">طلب الخدمة</a>
+                </div>
+                <div class="card">
+                    <h3 data-key="service4_title"></h3>
+                    <p data-key="service4_desc"></p>
+                    <a href="#contact" class="btn small" data-key="order_btn">طلب الخدمة</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio">
+            <h2 data-key="portfolio_title"></h2>
+            <div id="works-container" class="cards"></div>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <h2 data-key="about_title"></h2>
+            <p data-key="about_text"></p>
+            <span class="badge" data-key="badge"></span>
+            <p data-key="about_cta"></p>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2 data-key="contact_title"></h2>
+            <p data-key="contact_desc"></p>
+            <a href="https://wa.me/249993452125?text=مشروع"
+               class="btn" data-key="contact_btn"
+               data-wa="contact"></a>
+            <p class="alt">
+                <span data-key="email_label"></span>:
+                <a href="mailto:almhdybdallh24@gmail.com">almhdybdallh24@gmail.com</a>
+            </p>
+        </section>
+    </main>
+
+   <a href="https://wa.me/249993452125?text=مشروع" class="floating-btn" aria-label="WhatsApp">
+    <svg class="whatsapp-icon" viewBox="0 0 32 32" width="26" height="26" fill="currentColor">
+        <path d="M19.11 17.2c-.28-.14-1.64-.81-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.09-.16.18-.32.2-.59.07-.28-.14-1.17-.43-2.23-1.37-.83-.74-1.39-1.66-1.55-1.94-.16-.28-.02-.43.12-.57.12-.12.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.34-.02-.48-.07-.14-.61-1.48-.84-2.03-.22-.53-.45-.46-.61-.46h-.52c-.18 0-.48.07-.73.34-.25.28-.96.94-.96 2.3 0 1.36.99 2.67 1.13 2.85.14.18 1.95 2.98 4.72 4.18.66.29 1.17.46 1.57.59.66.21 1.26.18 1.74.11.53-.08 1.64-.67 1.87-1.32.23-.65.23-1.21.16-1.32-.07-.11-.25-.18-.53-.32z"/>
+        <path d="M16 3C9.37 3 4 8.37 4 15c0 2.34.68 4.52 1.86 6.36L4 29l7.86-1.84C13.48 28.32 14.73 28 16 28c6.63 0 12-5.37 12-12S22.63 3 16 3zm0 22c-1.18 0-2.35-.2-3.45-.59l-.25-.09-4.67 1.09 1.13-4.55-.16-.23A9.9 9.9 0 0 1 6 15c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10z"/>
+    </svg>
+</a>
+
+    <footer>
+        <p data-key="footer_text"></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

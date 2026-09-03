@@ -1,270 +1,179 @@
-Hi, I'm Elmahdi Abdallh
+# Elmahdi Abdallh
 
-Backend & Full-Stack Developer | PHP • Laravel • Node.js • Vue • React • Flutter
+**Backend & Full-Stack Developer | PHP • Laravel • Node.js • React • Flutter**
 
-I design and build web applications, backend systems, REST APIs, admin dashboards, business tools, and cross-platform mobile applications for individuals, startups, and small businesses.
+I design and build practical business systems, REST APIs, and cross-platform applications. Focused on creating reliable, maintainable software that solves real problems—not just adding features.
 
-My focus is on building software that is reliable, maintainable, secure, and practical — not simply getting something to work.
-
-🇸🇩 Based in Sudan
-🌍 Available for freelance & remote work
+Based in Sudan. Available for freelance and remote work.
 
 ---
 
-💼 What I Can Build for You
+## What I Build
 
-Web Applications
+**Backend & REST APIs**
+- PHP backends with clean architecture and error handling
+- RESTful API development (JSON APIs, authentication, data validation)
+- Database design and optimization
+- Service integrations and third-party API work
 
-- Custom PHP applications
-- Laravel applications
-- CodeIgniter systems
-- Business management systems
-- Custom dashboards
-- Data-driven web applications
-- Lightweight CMS platforms
+**Business Systems**
+- Admin dashboards and management panels
+- Content management systems (CMS)
+- Point-of-sale (POS) systems
+- Inventory and business operation tools
+- License management and software monetization
 
-Backend & APIs
+**Web Applications**
+- Full-stack web applications (PHP/Node.js backend + React/Vue frontend)
+- Real-time synchronization and data management
+- Responsive, user-focused UI/UX
+- Deployment-ready applications
 
-- RESTful API development
-- PHP & Node.js backends
-- Authentication & authorization
-- Database design
-- API integrations
-- JSON-based services
-- Backend architecture & refactoring
+**Mobile Applications**
+- Flutter mobile apps (iOS & Android)
+- React Native cross-platform development
+- Offline-first mobile systems
+- Mobile + web synchronization
 
-Admin Panels & Business Systems
-
-- Admin dashboards
-- User management systems
-- Inventory systems
-- Sales & invoicing systems
-- Reporting dashboards
-- Content management systems
-- Custom internal tools
-
-Mobile Applications
-
-- Flutter applications
-- Android applications
-- React Native applications
-- REST API integration
-- Local/offline-first applications
-- SQLite-based mobile systems
-
-Maintenance & Improvements
-
-- Bug fixing
-- Performance improvements
-- Code refactoring
-- Legacy PHP modernization
-- Database optimization
-- API debugging
-- Existing-project development
+**Maintenance & Refactoring**
+- Bug fixes and performance optimization
+- Legacy code modernization
+- Codebase refactoring
+- Existing project improvements
 
 ---
 
-🛠️ Technology Stack
+## Selected Work
 
-Backend
+### 1. Pico JSON CMS
+Lightweight, developer-friendly flat-file CMS with admin panel, theme system, and plugin architecture. Designed for small blogs, documentation sites, and business websites. No database required—all content stored in JSON files.
 
-PHP • Laravel • CodeIgniter 4 • Node.js
+**Why it matters:** Demonstrates full PHP application architecture, admin interface development, and extensible plugin systems.
 
-Frontend
+**Tech Stack:** PHP 8.1+, JSON storage, Markdown support, Composer
 
-JavaScript • Vue 3 • React • HTML5 • CSS3
-
-Mobile
-
-Flutter • Dart • React Native • Android
-
-Databases
-
-MySQL • SQLite
-
-APIs & Data
-
-REST APIs • JSON • API Integrations
-
-Tools
-
-Git • GitHub • Composer • npm • Linux • Termux
-
-Development Practices
-
-MVC Architecture • Clean Code • Separation of Concerns • Maintainable Architecture • Database Design
+**Links:** [Repository](https://github.com/almhdy24/pico-json-cms) | [Live Demo](https://pico-json-cms.alwaysdata.net)
 
 ---
 
-🚀 Selected Projects
+### 2. Cashirak POS
+Offline point-of-sale system built for small restaurants, cafés, and shops. Works without internet, runs on older hardware, supports Arabic. Includes shift management, receipt printing, user roles, and sales reporting.
 
-NotesSync
+**Why it matters:** Shows real-world constraint solving (offline-first architecture), business process understanding, and practical SME software development.
 
-A cross-platform note synchronization system featuring a PHP backend, JavaScript web application, and Android client.
+**Tech Stack:** PHP, SQLite, HTML5, CSS3, responsive design
 
-Stack: PHP • JavaScript • REST API • Android
-
----
-
-Waraqatak
-
-A Flutter-based business document application for creating and managing invoices, quotations, receipts, and other business documents.
-
-Stack: Flutter • Dart • SQLite
+**Links:** [Repository](https://github.com/almhdy24/cashirak-pos)
 
 ---
 
-Jsonella
+### 3. jsonella
+Production PHP JSON library with clean API, comprehensive error handling, and zero dependencies. Handles encoding/decoding, file operations, validation, formatting, and deep merging. Published via Composer.
 
-A lightweight and modern JSON library for PHP with a clean API and structured error handling.
+**Why it matters:** Demonstrates PHP standards (PSR-4), testing culture, and reusable library development.
 
-Stack: PHP • Composer
+**Tech Stack:** PHP 7.4+, Composer, PHPUnit testing
 
----
-
-Pico JSON CMS
-
-A lightweight content management system built with PHP and JSON storage, including Markdown support and an administration panel.
-
-Stack: PHP • JSON • Markdown
+**Links:** [Repository](https://github.com/almhdy24/jsonella)
 
 ---
 
-AnatoQ
+### 4. NotesSync
+Cross-platform note synchronization system with PHP backend, React web application, and Java/Android client. Features JWT authentication, CRUD operations, search, and responsive mobile-friendly UI.
 
-A cross-platform anatomy learning application designed to support medical students through interactive learning experiences.
+**Why it matters:** Shows full-stack capability across backend, frontend, and mobile platforms.
 
-Stack: React • React Native • JavaScript
+**Tech Stack:** PHP backend, React web, Java/Android client, SQLite, REST API, Bootstrap
 
----
-
-💼 Freelance Services
-
-I work with clients who need practical software solutions rather than generic templates.
-
-I can help with:
-
-- Custom web application development
-- PHP / Laravel development
-- CodeIgniter development
-- Node.js backend development
-- REST API development
-- Vue & React frontend development
-- Flutter mobile applications
-- Admin dashboards
-- Business management systems
-- API integrations
-- Bug fixing & refactoring
-- Existing-project development
+**Links:** [Repository](https://github.com/almhdy24/NotesSync)
 
 ---
 
-🤝 Working With Me
+### 5. AnatoQ
+Cross-platform anatomy learning application built with React and React Native (Expo). Designed to support medical education through interactive quizzes. Deployable on web, iOS, and Android from a shared codebase.
 
-My approach is simple:
+**Why it matters:** Demonstrates modern mobile development, Expo build system, and cross-platform code sharing strategies.
 
-Understand → Plan → Build → Test → Deliver → Maintain
+**Tech Stack:** React, React Native, Expo, GitHub Actions CI/CD
 
-I aim to write code that is easy to understand and maintain, while keeping the solution appropriate for the project's actual requirements and budget.
-
----
-
-📫 Let's Work Together
-
-Have a project, an existing system that needs improvement, or an idea you'd like to turn into software?
-
-Website: "almhdy24.com" (https://almhdy24.com)
-Email: hello@almhdy24.com
-
-I'm available for freelance and remote projects.
+**Links:** [Repository](https://github.com/almhdy24/AnatoQ) | [Live Demo](https://anatoq.vercel.app)
 
 ---
 
-⭐ Explore my repositories to see what I build.- Linux
-- Termux
-- JSON-based systems
-- Clean, maintainable code
+### 6. Simple License Server
+Lightweight SaaS license validation server for managing software licenses. Pure PHP with SQLite, zero dependencies. Provides JSON API for remote license control (activate/deactivate/delete).
 
-Featured Projects
+**Why it matters:** Solves B2B software monetization problems; useful for developers selling tools or services.
 
-NotesSync
+**Tech Stack:** PHP 7.4+, SQLite, JSON API, responsive admin UI
 
-Cross-platform note synchronization system with a PHP backend, JavaScript web application, and Android client.
+**Links:** [Repository](https://github.com/almhdy24/simple-license-server)
 
-Jsonella
+---
 
-A lightweight modern JSON library for PHP with a clean API and structured error handling.
+## Tech Stack
 
-Pico JSON CMS
-
-A minimal PHP CMS using JSON storage and Markdown, designed for lightweight deployments.
-
-AnatoQ
-
-A cross-platform anatomy learning application built for medical students, using React and React Native.
-
-Freelance
-
-I'm available for freelance and remote work involving:
-
-- PHP & Laravel development
-- CodeIgniter applications
-- REST API development
-- Admin dashboards
-- Business systems
-- Bug fixing & refactoring
-- Existing-project improvements
-
-Connect
-
-Email: contact@almhdy.sd
-Website: https://almhdy.sd
-
-Feel free to explore my repositories, open an issue, or get in touch if you'd like to work together.- MySQL / SQLite
-- REST APIs
+**Backend**
+- PHP (Laravel, CodeIgniter 4, vanilla PHP)
+- Node.js
+- REST APIs & JSON
 
 **Frontend**
 - JavaScript (ES6+)
-- Vue 3 (Composition API)
 - React 18
-- HTML, CSS (Bulma, Tailwind basics)
+- Vue 3
+- HTML5 / CSS3
+
+**Mobile**
+- Flutter / Dart
+- React Native (Expo)
+- Android
+
+**Database**
+- MySQL
+- SQLite
 
 **Tools & Practices**
-- MVC architecture
-- Git & GitHub
-- Linux / Termux environments
-- JSON-based systems
+- Git / GitHub
+- Composer / npm
+- Linux / Termux
+- MVC Architecture
+- Clean Code Principles
+- API Design
 
 ---
 
-## 📌 Featured Projects
+## Why Work With Me
 
-🔹 **NotesSync**  
-Full-stack notes synchronization system (PHP backend + JS frontend + Android client)
+**Practical Business Focus**
+I build software to solve real problems, not to chase trends. My experience includes offline-first systems, resource-constrained deployments, and SME workflows.
 
-🔹 **Jsonella**  
-Lightweight PHP JSON handling library published on Packagist
+**Backend & API Expertise**
+Strong foundation in PHP, database design, authentication, and API architecture. I understand performance, security, and scalability.
 
-🔹 **Pico JSON CMS**  
-Minimal CMS built with PHP and JSON storage
+**Full-Stack Capability**
+Comfortable across backend (PHP, Node.js), frontend (React, Vue), and mobile (Flutter, React Native). Can deliver complete, integrated solutions.
 
-➡️ Check the pinned repositories below for details, screenshots, and setup instructions.
+**Production Mindset**
+Code is written for maintenance. I prioritize error handling, clear architecture, testing, and documentation. Security and deployment are built in from the start.
 
----
-
-## 💼 Freelance Services
-
-I’m available for:
-- PHP backend development
-- Admin panels & dashboards
-- API development
-- Bug fixing & refactoring
-- Student & academic projects
-
-📫 **Contact**
-- Email: **contact@almhdy.sd**
-- Website: https://almhdy.sd
+**Responsive Communication**
+Clear documentation, active GitHub presence, and straightforward communication about timeline and requirements.
 
 ---
 
-⭐ Feel free to explore my repositories or reach out if you’d like to work together.
+## Get In Touch
+
+Ready to discuss your project?
+
+**Email:** hello@almhdy24.com
+
+**Website:** https://almhdy24.com
+
+**GitHub:** https://github.com/almhdy24
+
+I'm available for freelance projects—remote work, fixed-scope projects, or ongoing development. Let's build something practical.
+
+---
+
+*Explore my repositories above to see the full range of work. Each project demonstrates different aspects of full-stack and backend development.*
